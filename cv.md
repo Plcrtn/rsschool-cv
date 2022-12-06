@@ -21,7 +21,6 @@
 ## *Skills*
 * HTML
 * SCC
-* Preprocessor Sass
 * Methodology BEM
 * Git
   
