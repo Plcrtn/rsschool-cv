@@ -1,4 +1,4 @@
-# **Dmitry Lisitsyn**    ![Avatar](img/1666931701706.jfif)
+# **Dmitry Lisitsyn**
 
 ## *Contacts* 
 * *Location*: Lithuania, Vilnius
