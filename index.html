@@ -9,76 +9,79 @@
 </head>
 <body>
     <header class="header">
-        <nav>
             <div class="container">
+                <nav>
                 <ul class="menu">
-                    <li class="menu_item"><a href="#">Contacts</a></li>
-                    <li class="menu_item"><a href="#">About Me</a></li>
-                    <li class="menu_item"><a href="#">Skills</a></li>
-                    <li class="menu_item"><a href="#">Code example:</a></li>
-                    <li class="menu_item"><a href="#">Projects</a></li>
-                    <li class="menu_item"><a href="#">Languages</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#contacts">Contacts</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">About Me</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">Skills</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">Code example</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#">Projects</a></li>
+                    <li class="menu_item"><a class="menu_link" href="#languages">Languages</a></li>
                 </ul>
+                </nav>
             </div>
-        </nav>
-        <div class="avatar">
-            <h1>Dmitry Lisitsyn</h1>
-            <img src="assets/img/avatar.jpg" alt="avatar">
-        </div>
     </header>
     <main class="main">
-        <div class="container">
-            <div class="contacts">
+        <div class="main-container">
+            <section class="name">
+                <h1 class="title_avatar">Dmitry Lisitsyn</h1>
+                <img class="avatar" src="assets/img/avatar.jpg" alt="avatar">
+            </section>
+            <section class="contacts" id="contacts">
                 <h2 class="subtitle">Contacts</h2>
                 <ul>
-                    <li><span class="italic">Location:</span>Lithuania, Vilnius</li>
-                    <li><span class="italic">E-mail:</span>polcertaain@gmail.com</li>
-                    <li><span class="italic">Phone:</span>MTS(RB): +375445930585; LT: +37063251245</li>
-                    <li><span class="italic">GitHub:</span> <a href="https://github.com/Plcrtn">Plcrtn</a> </li>
-                    <li><span class="italic">Telegram:</span>@Polcertain</li>
-                    <li><span class="italic">Instagram:</span><a href="https://www.instagram.com/plcrtn_/">plcrtn</a></li>
-                    <li><span class="italic">LinkedIn:</span> <a href="https://www.linkedin.com/in/plcrtn/">Дмитрий Лисицын</a> </li>
-                    <li><span class="italic">Discord:</span>polcertain(@Plcrtn)</li>
+                    <li class="menu_item"><span class="italic">Location:</span> Lithuania, Vilnius</li>
+                    <li class="menu_item"><span class="italic">E-mail:</span> polcertaain@gmail.com</li>
+                    <li class="menu_item"><span class="italic">Phone:</span> MTS(RB): +375445930585; LT: +37063251245</li>
+                    <li class="menu_item"><span class="italic">GitHub:</span> <a href="https://github.com/Plcrtn">Plcrtn</a> </li>
+                    <li class="menu_item"><span class="italic">Telegram:</span> @Polcertain</li>
+                    <li class="menu_item"><span class="italic">Instagram:</span> <a href="https://www.instagram.com/plcrtn_/">plcrtn</a></li>
+                    <li class="menu_item"><span class="italic">LinkedIn:</span> <a href="https://www.linkedin.com/in/plcrtn/">Дмитрий Лисицын</a> </li>
+                    <li class="menu_item"><span class="italic">Discord:</span> polcertain(@Plcrtn)</li>
                 </ul>
-            </div>
-            <div class="about_me">
-                <h2 class="subtitle"></h2>
-                <p class="self-info">Люблю знакомиться с новыми людьми, как и узнавать новое в целом. Аккуратный, стрессоустойчивый, веселый человек, который любит, но хочет еще и научиться решать проблемы.
+            </section>
+            <section class="about_me" id="about_me">
+                <h2 class="subtitle">About Me</h2>
+                <p class="self-info">Люблю знакомиться с новыми людьми, как и узнавать новое в целом. Аккуратный, стрессоустойчивый, веселый человек, который не только любит, но хочет еще и научиться решать проблемы.
                     I like meet new people, so as learn new things in general. Tidy, stress-resistant, cheerful person who likes solve problems but wants to learn how to do it.</p>
-            </div>
-            <div class="skills">
+            </section>
+            <section class="skills" id="skills">
                 <h2 class="subtitle">Skills</h2>
                 <ul>
-                    <li>HTML</li>
-                    <li>SCC</li>
-                    <li>Methodology BEM</li>
-                    <li>Git</li>
-                    <li>Preprocessors Saas & Scss</li>
+                    <li class="menu_item">HTML</li>
+                    <li class="menu_item">SCC</li>
+                    <li class="menu_item">Methodology BEM</li>
+                    <li class="menu_item">Git</li>
+                    <li class="menu_item">Preprocessors Saas & Scss</li>
                 </ul>
-            </div>
-            <div class="code">
+            </section>
+
+            <section class="languages" id="languages">
+                <h2 class="subtitle">Languages</h2>
+                <ul>
+                    <li class="menu_item">English - Intermediate</li>
+                    <li class="menu_item">Russian - Native</li>
+                    <li class="menu_item">Belarusian - Native</li>
+                </ul>
+            </section>
+
+            <section class="projects" id="projects">
+                <h2 class="subtitle">Projects</h2>
+                <ul>
+                    <li class="menu_item"><a href="">RunSmart</a> (Educational project)</li>
+                    <li class="menu_item"> <a href="">Uber</a> (Educational project)</li>
+                </ul>
+            </section>
+
+            <section class="code" id="code">
                 <h2 class="subtitle">Code example:</h2>
                 <code>
                     function multiply (a, b) {<br>
-                        return a * <br>
+                        return a * b <br>
                         }
                 </code>
-            </div>
-            <div class="projects">
-                <h2 class="subtitle">Projects</h2>
-                <ul>
-                    <li><a href="">RunSmart</a>(Educational project)</li>
-                    <li><a href="">Uber</a>(Educational project)</li>
-                </ul>
-            </div>
-            <div class="languages">
-                <h2 class="subtitle">Languages</h2>
-                <ul>
-                    <li>English - Intermediate</li>
-                    <li>Russian - Native</li>
-                    <li>Belarusian - Native</li>
-                </ul>
-            </div>
+            </section>
         </div>
     </main>
 </body>
