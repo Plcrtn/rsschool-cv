@@ -22,7 +22,7 @@
 * {
     box-sizing: border-box;
     font-family: Rubick;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 html {
@@ -92,7 +92,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: 50%;
-    padding-right: 150px;
+    padding: 20px 150px 100px 10px ;
   }
 
   .avatar {
