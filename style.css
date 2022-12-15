@@ -99,8 +99,8 @@ nav {
     border-radius: 10%;
     margin-left: 110px;
 }
-.title_avatar {
-    line-height: 20px;
+  .title_avatar {
+      line-height: 20px;
 }
 
   .contacts {
@@ -139,3 +139,25 @@ nav {
   .subtitle {
     text-align: center;
   }
+  .container_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 1px 40px;
+    background-color: rgba(39, 10, 119, 0.5);
+  }
+  
+  .rs_img {
+    width: 80px;
+    height: 80px;
+  }
+  .github {
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .year_footer {
+    font-weight: 600;
+  } 
