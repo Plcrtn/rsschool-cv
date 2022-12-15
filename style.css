@@ -22,6 +22,7 @@
 * {
     box-sizing: border-box;
     font-family: Rubick;
+    font-size: large;
 }
 
 html {
@@ -63,6 +64,7 @@ nav {
 }
 .menu_item {
     list-style: none;
+    line-height: 30px;
 }
 
 
@@ -112,6 +114,10 @@ nav {
     width: 50%;
     padding-top: 25px;
     padding-left: 15px;
+  }
+  .self_info {
+    font-weight: 400;
+    line-height: 20px;
   }
 
   .skills {
